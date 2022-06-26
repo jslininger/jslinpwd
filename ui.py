@@ -49,9 +49,9 @@ class PwdWindow(Gtk.Window):
 
         self.scrollable_treelist.add(self.treeview)
 
-        icontheme = Gtk.IconTheme.get_default()
-        self.icon = icontheme.load_icon(Gtk.STOCK_FLOPPY, 48, 0)
-        self.set_icon(self.icon)
+#         icontheme = Gtk.IconTheme.get_default()
+#         self.icon = icontheme.load_icon(Gtk.STOCK_FLOPPY, 48, 0)
+#         self.set_icon(self.icon)
 
         self.show_all()
 
